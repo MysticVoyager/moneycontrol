@@ -1,0 +1,25 @@
+/* overrides.css */
+body, html {
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.wrapper, .page-container, .content-wrapper, .layout-wrapper, .main-container, #main, #content, .container, .container-fluid {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.row, .flex-row, .grid, .grid-container, .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column, .col, .grid-item, .flex-item {
+    flex: 1 0 100%;
+}
+
+/* Additional rules targeting specific problematic elements */
+.some-specific-class {
+    max-width: none !important;
+}
